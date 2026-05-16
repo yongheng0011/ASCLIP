@@ -85,23 +85,17 @@ python train_fenkuai_up.py \
     --up sim
 ```
 
-Modify `--train_data_path` to match your local setup before running.
-
 ---
 
-## 5. Inference
+## 5. Inference on `test_private` and `test_private_mixed` — Save TIFF Files
 
-### 5.1 Inference on MVTec AD 2 `test_public`
-
-To run inference on the public test split (used for local evaluation):
+To run inference on the private test splits (`test_private` and `test_private_mixed`) and save anomaly maps as TIFF files:
 
 ```bash
 bash test_asclip.sh
 ```
 
-### 5.2 Inference on `test_private` and `test_private_mixed` — Save TIFF Files
-
-The `test_asclip.sh` script also handles inference on the private test splits and saves per-image anomaly maps as float16 TIFF files following the MVTec AD 2 competition submission layout:
+The `test_asclip.sh` script runs inference on the private test splits and saves per-image anomaly maps as float16 TIFF files following the MVTec AD 2 competition submission layout:
 
 ```bash
 python test_new_fenkuai_up_vand4.0.py \
@@ -124,13 +118,16 @@ python test_new_fenkuai_up_vand4.0.py \
 
 Modify `--test_data_path` to point to your local MVTec AD 2 directory. TIFF files will be saved under `./submission_folder/anomaly_images/`.
 
-### 6 Convert TIFF Files to PNG
+### 6. Convert TIFF Files to PNG
 
 To convert the saved TIFF anomaly maps to PNG images for visualization:
 
 ```bash
 python tiff_trans_png.py ./submission_folder
 ```
+
+
+
 
 ---
 
