@@ -14,6 +14,3 @@ CUDA_VISIBLE_DEVICES=0 python test_new_fenkuai_up_vand4.0.py --dataset mvtec_ad_
         --visual_learner --textual_learner \
         --up sim --save_tiff
 
---------------------------
-#Convert the TIFF files to PNG images.
-python tiff_trans_png.py ./submission_folder
