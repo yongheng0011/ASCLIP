@@ -1,0 +1,7 @@
+26-05-16 15:45:20.205 - INFO: 
+loading model from: ./train_fenkuai_sim/use_mvtec/epoch_10.pth
+26-05-16 15:45:20.554 - INFO: 
+[save_tiff] Scanning /data/MVTec-AD/mvtec_ad_2
+26-05-16 15:45:20.554 - INFO: [save_tiff] Classes: ['can', 'fabric', 'foreground_masks', 'fruit_jelly', 'rice', 'sheet_metal', 'vial', 'wallplugs', 'walnuts']
+26-05-16 15:45:20.554 - INFO: [save_tiff] Output root: ./submission_folder/anomaly_images
+26-05-16 15:45:20.554 - INFO:   can/test_private: 321 images
