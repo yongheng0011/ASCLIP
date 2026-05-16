@@ -120,7 +120,7 @@ Modify `--test_data_path` to point to your local MVTec AD 2 directory. TIFF file
 
 ### 6. Convert TIFF Files to PNG
 
-To convert the saved TIFF anomaly maps to PNG images for visualization:
+To convert the saved TIFF anomaly maps to PNG images:
 
 ```bash
 python tiff_trans_png.py ./submission_folder
