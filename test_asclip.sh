@@ -4,7 +4,7 @@
 
 
 #Run inference on the test_private and test_private_mixed splits of MVTec AD 2, and save the results as TIFF files.
-CUDA_VISIBLE_DEVICES=0 python test_new_fenkuai_up_vand4.0.py --dataset mvtec_ad_2  --test_data_path /data/MVTec-AD/mvtec_ad_2 \
+python test_new_fenkuai_up_vand4.0.py --dataset mvtec_ad_2  --test_data_path /data/MVTec-AD/mvtec_ad_2 \
         --seed 10 \
         --k_shots 0 \
         --checkpoint_path ./train_fenkuai_sim/use_mvtec/epoch_10.pth \
