@@ -11,7 +11,7 @@
 Download the [MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad) dataset and organize it as follows. Then download `meta.json` from the [`mvtec/`](./mvtec/) folder in this repository and place it directly under your MVTec root directory.
 
 ```
-MVTec AD/
+mvtec/
 ├── bottle/
 ├── cable/
 ├── capsule/
@@ -22,7 +22,7 @@ MVTec AD/
 Download the [MVTec AD 2](https://www.mvtec.com/company/research/datasets/mvtec-ad-2) dataset and organize it as follows:
 
 ```
-MVTec AD 2/
+mvtec_ad_2/
 ├── can/
 │   ├── train/
 │   ├── test_public/
