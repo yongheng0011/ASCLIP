@@ -8,10 +8,10 @@
 
 ## 1. Data Preparation
 
-Download the [MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad) dataset and organize it as follows. Then download `meta.json` from the [`mvtec/`](./mvtec/) folder in this repository and place it directly under your MVTec root directory.
+Download the [MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad) dataset and organize it as follows. Then download `meta.json` from the [`mvtec/`](./mvtec_ad/) folder in this repository and place it directly under your MVTec root directory.
 
 ```
-mvtec/
+mvtec_ad/
 ├── bottle/
 ├── cable/
 ├── capsule/
