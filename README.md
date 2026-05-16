@@ -69,7 +69,7 @@ which executes:
 ```bash
 python train_fenkuai_up.py \
     --dataset mvtec \
-    --train_data_path /data/MVTec-AD/mvtec/ \
+    --train_data_path /data/MVTec-AD/mvtec \
     --save_path ./train_fenkuai_sim/use_mvtec \
     --k_shots 0 \
     --features_list 6 12 18 24 \
