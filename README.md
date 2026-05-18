@@ -125,7 +125,13 @@ To convert the saved TIFF anomaly maps to PNG images:
 ```bash
 python tiff_trans_png.py ./submission_folder
 ```
+### 7. Prepar the submission
 
+Check the folder content and generate a submission file that meets the requirements:
+
+```bash
+python check_and_prepare_data_for_upload.py ./submission_folder
+```
 
 
 
